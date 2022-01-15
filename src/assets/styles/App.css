@@ -1,0 +1,20 @@
+@import 'bootstrap/dist/css/bootstrap.rtl.min.css';
+@import "vazir-font/dist/font-face.css";
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Vazir', Arial, Helvetica, sans-serif;
+}
+
+.countdown-container{
+  min-height: 45rem;
+  height: 100vh;
+  background: linear-gradient(rgba(41, 40, 40, 0.5), rgba(31, 30, 30, 0.5), rgba(17, 17, 17, 0.5)), url('../img/bg.jpg') center center/cover;
+}
+
+.item{
+  width: 10rem;
+  height: 10rem;
+}
